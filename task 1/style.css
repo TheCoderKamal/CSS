@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+}
+
+.chess{
+    height: 650px;
+    width: 650px;
+    margin-block: 20px;
+    margin-inline: 450px;
+}
+
+.black{
+    height: 12.5%;
+    width: 12.5%;
+    float: left;
+    background-color: rgb(94, 93, 93);
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 15px;
+}
+
+.white{
+    height: 12.5%;
+    width: 12.5%;
+    float: left;
+    background-color: rgb(181, 180, 180);
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 15px;
+}

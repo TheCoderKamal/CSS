@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+.main{
+    height: 110vh;
+    width: 40%;
+    margin-inline: 30%;
+    margin-block: 30px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* WHITE */
+.white{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, white 50%, #FDF2E4 50%);
+}
+
+/* HEAD */
+.head{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 30px;
+    color: #543011;
+}
+.head::first-letter{
+    color: rgb(225, 116, 52);
+}
+.sec{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subhead{
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+.subhead b{
+    padding-inline: 40px;
+    padding-block: 10px;
+    font-size: 25px;
+    color: #FDF2E4;
+    background-color: #543011;
+}
+
+/* IMAGE */
+.subhead img{
+    border-radius:50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* INGREDIENTS */
+.ingredients{
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 40px;
+    color: #543011;   
+}
+.ingredients::first-letter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(225, 116, 52);
+    font-size: 40px;
+}
+.ingredients > ul{
+    margin-top: 20px;
+    line-height: 30px;
+    padding-left: 40px;
+}
+.ingredients li:nth-child(odd){
+    color: rgb(127, 31, 5);
+}
+.ingredients li:nth-child(even){
+    color: rgb(214, 132, 50);
+}
+
+/* DIRECTION */
+.direction{
+    padding-left: 40px;
+    color: #543011; 
+}
+.direction::first-letter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(225, 116, 52);
+    font-size: 40px;
+}
+.direction > ul{
+    margin-top: 20px;
+    line-height: 30px;
+    padding-left: 40px;
+}
+.direction li:nth-child(odd){
+    color: rgb(127, 31, 5);
+    padding-right: 50px;
+}
+.direction li:nth-child(even){
+    color: rgb(214, 132, 50);
+    padding-right: 50px;
+}
+

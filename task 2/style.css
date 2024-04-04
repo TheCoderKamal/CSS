@@ -1,0 +1,160 @@
+.nav{
+    word-spacing: 40px;
+    margin-inline: 250px;
+    line-height: 65px;
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: gray;
+    transition-duration: 0.3s;
+}
+.nav a:hover{
+    color: red;
+}
+
+select{
+    border: none;
+    color: gray;
+    transition-duration: 0.3s;
+}
+select:hover{
+    color: red;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 13px;
+    background-color: red;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.body{
+    text-align: center;
+    cursor: default;
+}
+.big{
+    font-family: cursive;
+    font-size: 50px;
+}
+.part{
+    margin-top: 50px;
+    word-spacing: 50px;
+    font-size: 20px;
+}
+.part b{
+    transition-duration: .3s;
+} 
+.part b:first-child{
+    color: red;
+}
+.part b:hover{
+    color: red;
+}
+
+.p{
+    margin-top: 40px;
+    text-align: center;
+}
+h4{
+    color: gray;
+}
+.p big{
+    font-family: cursive;
+    font-size: 40px;
+    line-height: 20px;
+    color: red;
+}
+.img{
+    width: 85%;
+    margin-inline: 15%;
+    margin-top: 30px;
+}
+.img img{
+    height: 250px;
+    width: 27%;
+    object-fit: cover;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.book{
+    text-align: center;
+}
+.txt{
+    font-size: 70px;
+    font-family: 'Single Day', cursive;
+}
+
+.main{
+    width: 90%;
+    height: 60vh;
+    margin-inline: 5%;
+    margin-top: 30px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+}
+.image{
+    width: 30%;
+    height: 100%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.form{
+    padding-inline: 30px;
+    padding-block: 50px;
+}
+.f1{
+    margin-bottom: 20px;
+}
+.f1 input{ 
+    width: 240px;  
+    height: 40px; 
+    padding-inline: 20px;  
+    font-size: 17px;
+    font-weight: 600;  
+    text-align: center;
+    color: rgb(168, 167, 167);
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+    box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+}
+.mid{
+    margin-inline: 17px;
+}
+
+.f2 textarea{
+    padding-inline: 20px;  
+    font-size: 17px;
+    font-weight: 600;  
+    text-align: center;
+    color: rgb(168, 167, 167);
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+    box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+}
+.button button{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 13px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    -webkit-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+    box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.14);
+}
